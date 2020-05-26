@@ -15,8 +15,8 @@ import logging
 def refreshDirectory():
 	#This function will return the hash of the latest version
 	#Set the variables for what to get and where to put it
-	where = "/home/alarm/update_tff/theflyingfish"
-	pull = "git pull https://gitbucket.org/theflyingfish/theflyingfish.git"
+	where = "/Home/the/directory"
+	pull = "git pull files.git"
 	sshKey = "ssh stuff"
 	#Will Need to add decrypted base64 ssh, write it in local file
 	os.system("ssh data here")
@@ -35,7 +35,7 @@ def getFilePaths(directory):
 
 def getLatestHash():
 	#This function will get the newest hash
-	directory = "theflyingfish"
+	directory = "thedirectory"
 	newHash = dirhash(directory, 'sha1')
 
 	#Directory needs to be zipped so hashing is easier
